@@ -7,6 +7,6 @@
     <title>Portofolio</title>
 </head>
 <body>
-    <h2>Selamat datang di website Sipadil</h2>
+    <h2>this is homepage</h2>
 </body>
 </html>
