@@ -12,10 +12,4 @@ jobs:
       with:
         fetch-depth: 2
     - name: Change directory to htdocs
-      run: cd htdocs
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.host }}
-        username: ${{ secrets.user }}
-        password: ${{ secrets.password }}
+      run: ls
