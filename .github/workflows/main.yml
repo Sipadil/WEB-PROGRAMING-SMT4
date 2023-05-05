@@ -18,3 +18,4 @@ jobs:
         username: ${{ secrets.user }}
         password: ${{ secrets.password }}
         local-dir: ./htdocs
+        remote-dir: /public_html
