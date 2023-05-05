@@ -17,7 +17,7 @@ jobs:
     - name: Move files to htdocs
       run: |
         mkdir -p ./htdocs
-        mv ./* ./htdocs
+        cd /htdocs
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
